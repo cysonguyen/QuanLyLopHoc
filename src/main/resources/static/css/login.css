@@ -1,26 +1,51 @@
 body{
-    margin: 200px auto;
-    width: 600px;
-    height: 380px;
-    border: 1px solid black;
-    border-radius: 5%;
+    margin: 0;
+    padding: 0; 
+    font-family: sans-serif;
+    background-image: url("../image/Artboard 1.png");
 }
 
 .boxLogin{
-    margin-left: 60px;
-    margin-top: 30px;
+    position: absolute;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    opacity: 70%;
 }
 
 h1, h2{
-    margin-bottom: 10px;
-    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10%;
     font-size: 50px;
-    font-style: normal;
 }
-.boxLogin .user{
 
-}
 
 h2{
     font-size: 20px;
+}
+
+.boxLogin input{
+    margin-left: 10%;
+    border: none;
+    box-shadow: 10px;
+    width: 80%;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.boxLogin input[type = "submit"]{
+    border: 0;
+    background-color: blue;
+    display: block;
+    width: 60px;
+    margin: 5%;
+    text-align: center;
+    border: 2px solid black;
+    outline: none;
+    color: white;
+    font-size: 30px;
+    border-radius: 5%;
 }
