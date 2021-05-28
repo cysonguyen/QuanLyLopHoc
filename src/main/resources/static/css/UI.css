@@ -1,119 +1,20 @@
 body{
-    width: 100%;
-    height: 100%;
-    position: fixed;
     margin: 0;
     padding: 0;
 }
 
-.header {
-    width: 100%;
-    margin-top: auto;
-    margin-bottom: auto;
-    background-image: url("../image/Artboard 1.png");
-    background-size: cover;
-    display: flex;
+.head{
+    background-image: url(../image/backtren.png);
+    height: 150px;
 }
 
-.header .w-left {
-    display: flex;
-    margin-top: 10px;
-    margin-left: 7% ;
-}
-
-.header .w-right {
-    position: relative;
-    display: flex;
-    margin-top: 20px;
-    margin-left: 25% ;
-    margin-right: 30px;
-    flex: 1;
-    justify-content: flex-end;
-}
-
-
-
-    .header .w-right .search {
-        margin-top: 10px;
-        position: absolute;
-        left: 0;
+    .head img{
+        margin: 20px 500px 20px 100px;
+        height: 100px;
     }
 
-        .header .w-right .search input {
-            width: 250px;
-            height: 40px;
-            border-radius: 6px;
-            border: solid 1px #d9d9d9;
-            background-color: #ffffff;
-        }
-
-        .header .w-right .search img {
-            width: 20px;
-            height: 20px;
-            position: absolute;
-            right: 10px;
-            top: 12px;
-        }
-
-
-.header .w-right .a{
-    display: flex;
-    
-}
-
-
-
-
-
-
-
-
-
-/* .header .w-right .logIn {
-    height: 30px;
-    border-radius: 6px;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
-    background-color: #aa261b;
-    text-align: center;
-    width: 200px;
-    margin-bottom: 10px;
-}
-
-    .header .w-right .logIn .button-login{
-        color: white;
-        padding-top: 10px;
-        font-weight: bold;
+    .head p{
+        float: right;
+        margin: 65px 200px 20px 50px;
+        font-size: 20px;
     }
-
-    .header .w-right .logIn .button-login a {
-        color: #ffffff;
-        font-weight: bold;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 14px;
-    }
-
-.header .w-right .register {
-    height: 30px;
-    border-radius: 6px;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
-    background-color: #aa261b;
-    text-align: center;
-    width: 200px;
-    margin-bottom: 10px;
-}
-
-    .header .w-right .register .button-login{
-        color: white;
-        padding-top: 10px;
-        font-weight: bold;
-    }
-
-    .header .w-right .register .button-login a {
-        color: #ffffff;
-        font-weight: bold;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 14px;
-    } */
-
