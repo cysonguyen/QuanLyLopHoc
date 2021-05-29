@@ -18,3 +18,18 @@ body{
         margin: 65px 200px 20px 50px;
         font-size: 20px;
     }
+
+.nav{
+    background-image: url(../image/backgiua.png);
+    font-family: sans-serif;
+    display: flex;
+}
+
+    .nav span{
+        margin: 10px 350px 10px 30px;
+        box-shadow: 0;
+    }
+
+    .nav .lastC{
+        margin-right: 0;
+    }
